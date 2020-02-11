@@ -59,7 +59,7 @@ public class CalcView extends JFrame {
     public CalcView() {
         JPanel calculatorPanel = addToPanel(new JPanel());
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setSize(215, 235);
+        this.setSize(330, 435);
         setCalculationSolution("");
         this.add(calculatorPanel);
     }
